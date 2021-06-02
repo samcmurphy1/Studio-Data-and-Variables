@@ -4,7 +4,7 @@
 // Declare and initialize the 12 variables here:
 const input = require('readline-sync');
 
-let astronautCount = Number(input.question("How many astronauts?"));
+let astronautCount = Number(input.question("How many astronauts? "));
 
 let date = "Monday 2019-3-18";
 let time = "10:05:04 am";
@@ -58,8 +58,13 @@ console.log(lineBreak)
 console.log("> FLIGHT PLAN")
 console.log(lineBreak)
 
+console.log("* weather: " + weatherStatus)
 
+console.log(lineBreak)
+console.log("> OVERALL STATUS")
+console.log(lineBreak)
 
+console.log("* Clear for takeoff: YES")
 
 
 
